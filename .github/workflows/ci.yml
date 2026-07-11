@@ -35,4 +35,4 @@ jobs:
         env:
           KUBECONFIG: /home/ex/.kube/config
         run: |
-          kubectl set image deployment/flask-deployment flask=ghcr.io/ahmedkhafagy6/expense-tracker:${{ github.sha }}
+          kubectl set image deployment/expense-tracker expense=ghcr.io/ahmedkhafagy6/expense-tracker:${{ github.sha }}
