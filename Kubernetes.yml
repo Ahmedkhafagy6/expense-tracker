@@ -27,6 +27,6 @@ spec:
     spec:
       containers:
         - name: expense
-          image: ghcr.io/ahmedkhafagy6/expense-tracker:latest
+          image: ghcr.io/ahmedkhafagy6/expense-tracker:0c1a8f1ec559af82830299993e57dff54afcc083
           ports:
             - containerPort: 5000
